@@ -18,7 +18,7 @@
 		4C15421016CD336E00DF38D0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C15420F16CD336E00DF38D0 /* Default-568h@2x.png */; };
 		4C15421316CD336E00DF38D0 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C15421116CD336E00DF38D0 /* MainStoryboard.storyboard */; };
 		4C15421616CD336E00DF38D0 /* MCMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C15421516CD336E00DF38D0 /* MCMasterViewController.m */; };
-		4C15421916CD336E00DF38D0 /* MCDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C15421816CD336E00DF38D0 /* MCDetailViewController.m */; };
+		4C15422516CD379C00DF38D0 /* MCTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C15422416CD379C00DF38D0 /* MCTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,8 +38,8 @@
 		4C15421216CD336E00DF38D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		4C15421416CD336E00DF38D0 /* MCMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCMasterViewController.h; sourceTree = "<group>"; };
 		4C15421516CD336E00DF38D0 /* MCMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCMasterViewController.m; sourceTree = "<group>"; };
-		4C15421716CD336E00DF38D0 /* MCDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCDetailViewController.h; sourceTree = "<group>"; };
-		4C15421816CD336E00DF38D0 /* MCDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCDetailViewController.m; sourceTree = "<group>"; };
+		4C15422316CD379C00DF38D0 /* MCTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCTableViewCell.h; sourceTree = "<group>"; };
+		4C15422416CD379C00DF38D0 /* MCTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,8 +91,8 @@
 				4C15421116CD336E00DF38D0 /* MainStoryboard.storyboard */,
 				4C15421416CD336E00DF38D0 /* MCMasterViewController.h */,
 				4C15421516CD336E00DF38D0 /* MCMasterViewController.m */,
-				4C15421716CD336E00DF38D0 /* MCDetailViewController.h */,
-				4C15421816CD336E00DF38D0 /* MCDetailViewController.m */,
+				4C15422316CD379C00DF38D0 /* MCTableViewCell.h */,
+				4C15422416CD379C00DF38D0 /* MCTableViewCell.m */,
 				4C15420016CD336E00DF38D0 /* Supporting Files */,
 			);
 			path = StaticCustomCell;
@@ -182,7 +182,7 @@
 				4C15420616CD336E00DF38D0 /* main.m in Sources */,
 				4C15420A16CD336E00DF38D0 /* MCAppDelegate.m in Sources */,
 				4C15421616CD336E00DF38D0 /* MCMasterViewController.m in Sources */,
-				4C15421916CD336E00DF38D0 /* MCDetailViewController.m in Sources */,
+				4C15422516CD379C00DF38D0 /* MCTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
